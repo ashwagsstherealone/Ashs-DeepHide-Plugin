@@ -1,0 +1,14 @@
+name: DeepHide
+version: 1.0.0
+main: dev.deephide.DeepHide
+api-version: '1.21'
+depend: [ProtocolLib]
+description: Anti-ESP - hides everything below a Y level until the player goes down there.
+commands:
+  deephide:
+    description: DeepHide admin command
+    usage: /deephide <reload|status>
+    permission: deephide.admin
+permissions:
+  deephide.admin:
+    default: op

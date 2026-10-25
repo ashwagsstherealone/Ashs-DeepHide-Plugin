@@ -1,0 +1,8 @@
+hide-below-y: -2
+reveal-at-y: 0
+rehide-above-y: 2
+replace-block: DEEPSLATE
+hide-entities: true
+worlds:
+  - world
+refresh-chunks-per-tick: 6
